@@ -1,0 +1,67 @@
+#content {
+    text-align: center;
+    max-width: 1600px;
+}
+
+body {
+    background-color: #5C80BC; 
+}
+header {
+    text-align: left;
+    background-color:#30323D;
+}
+footer {
+    background-color: #30323D;
+    color:#CDD1C4;
+}
+
+#logo {
+    width:100px;
+}
+.home-title {
+    color: #E8C547;
+}
+#hero-img {
+    width: 100%;
+}
+nav a {
+    color: aqua;
+}
+nav a:hover {
+    background-color: #E8C547;
+    
+}
+
+#background {
+    height: 725px;
+    background-color: #30323D;
+}
+
+.join {
+    background-color: #30323D;
+}
+.join:hover {
+    background-color: #E8C547;
+}
+
+.book {
+    background-color: #30323D;
+    color:aqua;
+}
+
+.book:hover {
+    background-color: #CDD1C4;
+}
+
+.msg {
+    background-color: #30323D;
+    color: #CDD1C4;
+}
+
+.icon {
+    width: 80px;
+}
+
+.card-img {
+    width: 30%;
+}
