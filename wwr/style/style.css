@@ -5,8 +5,11 @@
 
 body {
     background-color: #5C80BC; 
+    font-family: sans-serif;
 }
 header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     text-align: left;
     background-color:#30323D;
 }
@@ -28,10 +31,14 @@ nav a {
     color: aqua;
 }
 nav a:hover {
-    background-color: #E8C547;
-    
+    background-color: #CDD1C4;
 }
-
+.end-link{
+    color:aqua;
+}
+.end-link:hover {
+    background-color: #CDD1C4;
+}
 #background {
     height: 725px;
     background-color: #30323D;
