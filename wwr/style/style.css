@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 #content {
     text-align: center;
     max-width: 1600px;
@@ -6,9 +8,12 @@
 body {
     background-color: #5C80BC; 
     font-family: sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'merriweather', sans-serif ;
     font-size: 20px;
     text-align: left;
     background-color:#30323D;
@@ -22,10 +27,15 @@ footer {
     width:100px;
 }
 .home-title {
+    font-size: 2em;
     color: #E8C547;
+    font-family: 'merriweather', 'Times New Roman', Times, serif;
 }
 #hero-img {
     width: 100%;
+}
+#hero-msg {
+    font-family: 'merriweather', 'Times New Roman', Times, serif;
 }
 nav a {
     color: aqua;
@@ -33,10 +43,11 @@ nav a {
 nav a:hover {
     background-color: #CDD1C4;
 }
-.end-link{
+.link{
     color:aqua;
 }
-.end-link:hover {
+.link:hover {
+    color: darkblue;
     background-color: #CDD1C4;
 }
 #background {
@@ -45,15 +56,25 @@ nav a:hover {
 }
 
 .join {
+    font-size: 18px;
+    font-family: 'merriweather', sans-serif;
     background-color: #30323D;
+    color: aqua;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     background-color: #E8C547;
 }
 
 .book {
+    font-size: 18px;
     background-color: #30323D;
     color:aqua;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -63,6 +84,11 @@ nav a:hover {
 .msg {
     background-color: #30323D;
     color: #CDD1C4;
+    font-size: 1.5em;
+}
+.msg p {
+    font-size: .8em;
+    color: #CDD1C4;
 }
 
 .icon {
@@ -71,4 +97,6 @@ nav a:hover {
 
 .card-img {
     width: 30%;
+    border: 10px solid #30323D;
 }
+
