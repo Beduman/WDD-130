@@ -17,19 +17,27 @@ header {
     font-size: 20px;
     text-align: left;
     background-color:#30323D;
+    padding-bottom: 20px;
 }
 footer {
     background-color: #30323D;
     color:#CDD1C4;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-#logo {
+.logo {
     width:100px;
+    margin-bottom: 30px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .home-title {
     font-size: 2em;
     color: #E8C547;
     font-family: 'merriweather', 'Times New Roman', Times, serif;
+    margin-top: 30px;
 }
 #hero-img {
     width: 100%;
@@ -39,16 +47,12 @@ footer {
 }
 nav a {
     color: aqua;
+    padding: 20px;
+    border-radius: 5px;
 }
 nav a:hover {
-    background-color: #CDD1C4;
-}
-.link{
-    color:aqua;
-}
-.link:hover {
+    background-color: #E8C547;
     color: darkblue;
-    background-color: #CDD1C4;
 }
 #background {
     height: 725px;
@@ -66,6 +70,7 @@ nav a:hover {
 }
 .join:hover {
     background-color: #E8C547;
+    color:darkblue;
 }
 
 .book {
@@ -78,21 +83,25 @@ nav a:hover {
 }
 
 .book:hover {
-    background-color: #CDD1C4;
+    background-color: #E8C547;
+    color: darkblue;
 }
 
 .msg {
     background-color: #30323D;
     color: #CDD1C4;
     font-size: 1.5em;
+    padding: 35px;
 }
 .msg p {
     font-size: .8em;
     color: #CDD1C4;
+    padding: 35px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .card-img {
@@ -100,3 +109,12 @@ nav a:hover {
     border: 10px solid #30323D;
 }
 
+.link{
+    color:aqua;
+    padding: 5px;
+    border-radius: 5px;
+}
+.link:hover {
+    color: darkblue;
+    background-color: #E8C547;
+}
