@@ -13,11 +13,18 @@ body {
     padding: 0;
 }
 header {
+    display: grid;
+    grid-template-columns: 150px auto;
+
     font-family: 'merriweather', sans-serif ;
     font-size: 20px;
     text-align: left;
     background-color:#30323D;
     padding-bottom: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 footer {
     background-color: #30323D;
@@ -32,6 +39,8 @@ footer {
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .home-title {
     font-size: 2em;
