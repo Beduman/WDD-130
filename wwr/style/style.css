@@ -16,12 +16,10 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-
     font-family: 'merriweather', sans-serif ;
     font-size: 20px;
     text-align: left;
     background-color:#30323D;
-    padding-bottom: 20px;
 }
 
 nav {
@@ -197,9 +195,35 @@ nav a:hover {
     background-color: #E8C547;
 }
 
+.sub-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 50px;
+}
 
+.sub-main {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
 
+.side-info {
+    grid-column: 4/5;
+    grid-row: 1/4;
+}
 
+.info {
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+.sub-img {
+    width: 100%;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
