@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing for O'hare ir</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="styles/images/O'hare Air-logos.jpeg" alt="O'hare Logo">
+        <a href="pricing.html">Buy Now</a>
+        <a href="information.html">Learn More</a>
+    </header>
+    <div>
+        <img src="styles/images/6706.jpg" alt="image of bottles">
+    </div>
+    <section>
+        <p>
+            There are a few options to buy your air. Available to ship in 16 ounce bottles, gallons, and 5 gallon tanks.
+        </p>
+        <p>
+            If you really enjoy our product however, you can get our subscription service! This includes a 5 gallon refillable 
+            tank, with an 8 pack of bottles each month. You'll be able to enjoy pure oxygen whenever you need it, 
+            whether at home, on the road, in the mountains, or at work! Our subscription based service is two times the value
+            of our normal products!
+        </p>
+    </section>
+    <div>
+        <p>
+            1 16 oz bottle....................$6.99 <br>
+            8 pack of bottles.................$39.99 <br>
+            1 gallon tank.....................$39.99 <br>
+            5 gallon tank.....................$199 <br>
+            Subscription service..............$150 a month <br>
+            Subscription includes a 5 gallon tank and an 8 pack each month.
+          </p>
+    </div>
+    <div id="feedback"></div>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+               <label for="mail">E-mail:</label>
+               <input type="email" id="mail" name="user_email">
+            </li>
+             <li>
+               <label for="msg">Message:</label>
+               <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+            <button type="submit">Send your message</button>
+            </li>
+        </ul>
+    </form>
+
+    <footer>
+        <h3>
+            O'hare Air - Braden Hunsaker, 2022
+        </h3>
+        <div>
+            <p>
+                O'hare air is a fake brand and company, by any means do not take this page seriously.
+            </p>
+        </div>
+        <div>
+            <img src="styles/images/O'hare Air-logos_black.png" alt="Logo">
+        </div>
+    </footer>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
