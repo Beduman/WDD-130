@@ -10,12 +10,25 @@
 <body>
 <div class="content">
     <header>
-        <div home-link>
-            <img class="logo" src="styles/images/O'hare Air-logos.jpeg" alt="O'hare Logo">
-            <a href="home.html">Home</a>
+        <div class="header-grid">
+            <div class="logo-link">
+                <a href="home.html">
+                    <img class="logo" src="styles/images/O'hare Air-logos.jpeg" alt="O'hare Logo">
+                </a>
+            </div>
+            <div class="home-link">
+                <a class="link" href="home.html">Home</a>
+            </div>
+            <div class="pricing-link">
+                <a class="link" href="pricing.html">Buy Now</a>
+            </div>
+            <div class="info-link">
+                <a class="link" href="information.html">Learn More</a>
+            </div>
+            <div class="index-link">
+                <a class="link" href="https://beduman.github.io/WDD-130/">Website Index</a>
+            </div>
         </div>
-        <a href="pricing.html">Buy Now</a>
-        <a href="information.html">Learn More</a>
     </header>
 
     <main>
@@ -43,8 +56,8 @@
                 </p>
             </div>
         </section>
-        <section class="main-grid">
-            <div>
+        <div class="main-grid">
+            <div class="main-info">
                 <p>
                     Here at O'Hare Air, we clean and filter our air for you to get that pure oxygen that your body needs.
                     If you're worried about the smog in the sky, then you won't regret this purchase to help you and your family 
@@ -52,13 +65,13 @@
                     the link below to learn how breathing pure oxygen will help your body.
                 </p>
             </div>
-            <div>
-                <img src="styles/images/clouds.png" alt="clouds">
+            <div class="clouds-grid">
+                <img id="cld" src="styles/images/clouds.png" alt="clouds">
             </div>
-            <div>
-                <img src="styles/images/exercise.jpg" alt="exercise">
+            <div class="exercise-grid">
+                <img id="exc" src="styles/images/exercise.jpg" alt="exercise">
             </div>
-        </section>
+        </div>
     </main>
     
     <footer>
@@ -71,7 +84,7 @@
             </p>
         </div>
         <div>
-            <img src="styles/images/O'hare Air-logos_black.png" alt="Logo">
+            <img class="footer-logo" src="styles/images/O'hare Air-logos_black.png" alt="Logo">
         </div>
     </footer>
 </div>

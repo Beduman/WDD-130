@@ -1,7 +1,144 @@
 body {
-    max-width: 1800px;
+    max-width: 2400px;
 }
 
 img {
     max-width: 1800px;
+}
+main {
+    font-size: 25px;
+}
+
+.content {
+    text-align: center;
+    background-color: #C5FFFD;
+}
+
+.header-grid {
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #0F0E0E;
+    align-items: center;
+}
+
+.logo {
+    width: 70%;
+    justify-self: center;
+}
+
+.logo-link {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.home-link {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 70%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.home-link:hover {
+    background-color: #CC3363;
+    transform: scale(1.1);
+}
+
+.pricing-link {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    width: 70%;
+    height: 15%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.pricing-link:hover {
+    background-color: #CC3363;
+    transform: scale(1.1);
+}
+
+.info-link {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    width: 70%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.info-link:hover {
+    background-color: #CC3363;
+    transform: scale(1.1);
+}
+
+.index-link {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 70%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.index-link:hover {
+    background-color: #CC3363;
+    transform: scale(1.1);
+}
+
+a:link {
+    color: #88D9E6;
+}
+
+a:visited {
+    color: #88D9E6;
+}
+
+footer {
+    background-color: #0F0E0E;
+    color: #CC3363;
+}
+
+.footer-logo {
+    width: 80px;
+}
+
+main {
+    padding-top: 220px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 1fr;
+    grid-gap: 50px;
+}
+#cld {
+    width: 100%;
+    height: 90%;
+}
+
+#exc {
+    width: 100%;
+    height: 90%;
+}
+
+.main-info {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.clouds-grid {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.exercise-grid {
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
