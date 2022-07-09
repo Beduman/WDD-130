@@ -91,6 +91,14 @@ main {
     transform: scale(1.1);
 }
 
+.search {
+    grid-column: 7/8;
+    grid-row: 1/2;
+    padding: 6px;
+    margin-top: 8px;
+    justify-self: center;
+}
+
 a:link {
     color: #88D9E6;
 }
@@ -141,4 +149,8 @@ main {
 .exercise-grid {
     grid-column: 3/4;
     grid-row: 2/3;
+}
+
+.bottles {
+    max-width: 800px;
 }

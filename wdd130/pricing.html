@@ -4,66 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing for O'hare ir</title>
+    <title>Pricing for O'hare air</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+<div class="content">
     <header>
-        <div home-link>
-            <a href="home.html">
-                <img class="logo" src="styles/images/O'hare Air-logos.jpeg" alt="O'hare Logo">
-            </a>
+        <div class="header-grid">
+            <div class="logo-link">
+                <a href="home.html">
+                    <img class="logo" src="styles/images/O'hare Air-logos.jpeg" alt="O'hare Logo">
+                </a>
+            </div>
+            <div class="home-link">
+                <a class="link" href="home.html">Home</a>
+            </div>
+            <div class="pricing-link">
+                <a class="link" href="pricing.html">Buy Now</a>
+            </div>
+            <div class="info-link">
+                <a class="link" href="information.html">Learn More</a>
+            </div>
+            <div class="index-link">
+                <a class="link" href="https://beduman.github.io/WDD-130/">Website Index</a>
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">Submit<i class="search"></i></button>
+                  </form>
+            </div>
         </div>
-        <a class="link" href="home.html">Home</a>
-        <a class="link" href="pricing.html">Buy Now</a>
-        <a class="link" href="information.html">Learn More</a>
-        <a class="link" href="https://beduman.github.io/WDD-130/">Website Index</a>
     </header>
-    <div>
-        <img class="bottles" src="styles/images/6706.jpg" alt="image of bottles">
-    </div>
-    <section>
-        <p>
-            There are a few options to buy your air. Available to ship in 16 ounce bottles, gallons, and 5 gallon tanks.
-        </p>
-        <p>
-            If you really enjoy our product however, you can get our subscription service! This includes a 5 gallon refillable 
-            tank, with an 8 pack of bottles each month. You'll be able to enjoy pure oxygen whenever you need it, 
-            whether at home, on the road, in the mountains, or at work! Our subscription based service is two times the value
-            of our normal products!
-        </p>
-    </section>
-    <div class="prices">
-        <p>
-            1 16 oz bottle....................$6.99 <br>
-            8 pack of bottles.................$39.99 <br>
-            1 gallon tank.....................$39.99 <br>
-            5 gallon tank.....................$199 <br>
-            Subscription service..............$150 a month <br>
-            Subscription includes a 5 gallon tank and an 8 pack each month.
-          </p>
-    </div>
-    <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">
-        <ul>
-            <li>
-               <label for="name">Name:</label>
-               <input type="text" id="name" name="user_name">
-            </li>
-            <li>
-               <label for="mail">E-mail:</label>
-               <input type="email" id="mail" name="user_email">
-            </li>
-             <li>
-               <label for="msg">Message:</label>
-               <textarea id="msg" name="user_message"></textarea>
-            </li>
-            <li class="button">
-            <button type="submit">Send your message</button>
-            </li>
-        </ul>
-    </form>
-
+    <main>
+        <div>
+            <img class="bottles" src="styles/images/6706.jpg" alt="image of bottles">
+        </div>
+        <section>
+            <p>
+                There are a few options to buy your air. Available to ship in 16 ounce bottles, gallons, and 5 gallon tanks.
+            </p>
+            <p>
+                If you really enjoy our product however, you can get our subscription service! This includes a 5 gallon refillable 
+                tank, with an 8 pack of bottles each month. You'll be able to enjoy pure oxygen whenever you need it, 
+                whether at home, on the road, in the mountains, or at work! Our subscription based service is two times the value
+                of our normal products!
+            </p>
+        </section>
+        <div class="prices">
+            <p>
+                1 16 oz bottle....................$6.99 <br>
+                8 pack of bottles.................$39.99 <br>
+                1 gallon tank.....................$39.99 <br>
+                5 gallon tank.....................$199 <br>
+                Subscription service..............$150 a month <br>
+                Subscription includes a 5 gallon tank and an 8 pack each month.
+            </p>
+        </div>
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                <button type="submit">Send your message</button>
+                </li>
+            </ul>
+        </form>
+    </main>
     <footer>
         <h3>
             O'hare Air - Braden Hunsaker, 2022
@@ -74,9 +92,10 @@
             </p>
         </div>
         <div>
-            <img src="styles/images/O'hare Air-logos_black.png" alt="Logo">
+            <img class="footer-logo" src="styles/images/O'hare Air-logos_black.png" alt="Logo">
         </div>
     </footer>
+</div>
     <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
