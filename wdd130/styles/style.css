@@ -152,7 +152,7 @@ main {
 }
 
 .bottles {
-    width: 800px;
+    width: 80%;
     border: solid 5px #CC3363;
     border-radius: 10px;
 }
