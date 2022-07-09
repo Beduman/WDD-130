@@ -153,4 +153,6 @@ main {
 
 .bottles {
     max-width: 800px;
+    border: solid 5px #CC3363;
+    border-radius: 10px;
 }
