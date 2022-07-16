@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto&display=swap');
+
 body {
     max-width: 2400px;
+    font-family: "Joan", serif;
 }
 
 img {
@@ -7,6 +10,10 @@ img {
 }
 main {
     font-size: 25px;
+}
+
+header, h1, h2, h3 {
+    font-family: serif;
 }
 
 .content {
