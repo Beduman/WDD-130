@@ -132,6 +132,10 @@ main {
     padding-top: 220px;
 }
 
+.hero-img {
+    width: 100%;
+}
+
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
